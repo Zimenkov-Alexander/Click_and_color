@@ -15,6 +15,7 @@ class MyApp extends StatefulWidget {
 }
 
 class _MyAppState extends State<MyApp> {
+  // ? Создание массива с цветами (сделать импорт из файла не получилось)
   List colorsArr = [
     Colors.red,
     Colors.red[50],
@@ -130,6 +131,8 @@ class _MyAppState extends State<MyApp> {
     Colors.deepPurple[900],
   ];
 
+
+  // ? Добавил рандом для генерации индекса массива
   Random random = new Random();
   int index = 0;
 
